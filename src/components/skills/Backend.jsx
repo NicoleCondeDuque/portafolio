@@ -9,7 +9,7 @@ const Backend = () => {
           <div className="skills__data">
             {/*<HiCheckBadge />*/}
             <div>
-              <h3 className="skills__name">SpringBoot</h3>
+              <h3 className="skills__name">Jest</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -19,6 +19,10 @@ const Backend = () => {
               <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Basic</span>
             </div>
+          </div>
+          <div>
+            <h3 className="skills__name">API</h3>
+            <span className="skills__level">Intermediate</span>
           </div>
         </div>
         <div className="skills__group">
@@ -33,13 +37,13 @@ const Backend = () => {
             {/*<HiCheckBadge />*/}
             <div>
               <h3 className="skills__name">Node.js</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
             {/*<HiCheckBadge />*/}
             <div>
-              <h3 className="skills__name">Git</h3>
+              <h3 className="skills__name">GitHub</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
