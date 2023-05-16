@@ -1,4 +1,4 @@
-//import React, { useState } from "react";
+import React, { useState } from "react";
 import "./header.css";
 //import {
 //  HiOutlineHome,
@@ -12,21 +12,19 @@ import "./header.css";
 //} from "react-icons/hi";
 
 const Header = () => {
-  //  window.addEventListener("scroll", function () {
-  //    const header = document.querySelector(".header");
-  //    if (this.scrollY >= 80) header.classList.add("scroll-header");
-  //    else header.classList.remove("scroll-header");
-  //  });
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header");
+  });
 
-  //  const [Toggle, showMenu] = useState(false);
-  //  const [activeNav, setActiveNav] = useState("#home");
+  const [Toggle, showMenu] = useState(false);
+  const [activeNav, setActiveNav] = useState("#home");
 
   return (
     <header className="header">
       <nav className="nav container">
-        {/*<a href="index.html" className="nav__logo">
-          Portfolio
-        </a>
+        <a href="index.html" className="nav__logo"></a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -37,7 +35,7 @@ const Header = () => {
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <HiOutlineHome className="nav__icon" />
+                {/*<HiOutlineHome className="nav__icon" />*/}
                 Home
               </a>
             </li>
@@ -49,7 +47,7 @@ const Header = () => {
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <HiOutlineUser className="nav__icon" />
+                {/*<HiOutlineUser className="nav__icon" />*/}
                 About
               </a>
             </li>
@@ -63,7 +61,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <HiOutlineBadgeCheck className="nav__icon" />
+                {/*<HiOutlineBadgeCheck className="nav__icon" />*/}
                 Skills
               </a>
             </li>
@@ -77,7 +75,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <HiOutlineClipboardList className="nav__icon" />
+                {/*<HiOutlineClipboardList className="nav__icon" />*/}
                 Services
               </a>
             </li>
@@ -91,7 +89,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <HiOutlinePhotograph className="nav__icon" />
+                {/*<HiOutlinePhotograph className="nav__icon" />*/}
                 Projects
               </a>
             </li>
@@ -105,16 +103,16 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <HiOutlineMail className="nav__icon" />
+                {/*<HiOutlineMail className="nav__icon" />*/}
                 Contact
               </a>
             </li>
           </ul>
-          <HiX className="nav__close" onClick={() => showMenu(!Toggle)} />
+          {/*<HiX className="nav__close" onClick={() => showMenu(!Toggle)} />*/}
         </div>
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <HiOutlineMenu />
-        </div>*/}
+          {/*<HiOutlineMenu />*/}
+        </div>
       </nav>
     </header>
   );

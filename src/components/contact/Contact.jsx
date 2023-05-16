@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import { HiOutlineMail, HiOutlineArrowSmRight } from "react-icons/hi";
+//import { HiOutlineMail, HiOutlineArrowSmRight } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -11,17 +11,17 @@ const Contact = () => {
 
     emailjs.sendForm(
       "service_j4icjq2",
-      "template_fwq8n7v",
+      "template_unlx1f8",
       form.current,
-      "cXginQ40keRVEt1YV"
+      "JoL_9T73ree2Cs5ID"
     );
     e.target.reset();
   };
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Let's Connect</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <h2 className="section__title">Get in touch!</h2>
+      <span className="section__subtitle">Contact me:</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -29,17 +29,30 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <HiOutlineMail className="contact__card-icon" />
+              {/*<HiOutlineMail className="contact__card-icon" />*/}
+
+              <h3 className="contact__card-title">WhatsApp</h3>
+              <span className="contact__card-data">+51 981-167-097</span>
+
+              <a href="https://wa.link/y4zfxu" className="contact__button">
+                Write Me{" "}
+                {/*<HiOutlineArrowSmRight className="contact__button-icon" />*/}
+              </a>
+            </div>
+            <div className="contact__card">
+              {/*<HiOutlineMail className="contact__card-icon" />*/}
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">cyphrsylph@gmail.com</span>
+              <span className="contact__card-data">
+                Nicolecondeduque@gmail.com
+              </span>
 
               <a
-                href="mailto:cyphersylph@gmail.com"
+                href="mailto:Nicolecondeduque@gmail.com"
                 className="contact__button"
               >
                 Write Me{" "}
-                <HiOutlineArrowSmRight className="contact__button-icon" />
+                {/*<HiOutlineArrowSmRight className="contact__button-icon" />*/}
               </a>
             </div>
           </div>
