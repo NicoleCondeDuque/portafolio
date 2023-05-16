@@ -184,7 +184,7 @@ const Services = () => {
           <div>
             {/*<HiOutlineClipboardList className="services__icon" />*/}
             <h3 className="services__title">
-              Project
+              Product
               <br />
               manager
             </h3>
@@ -207,29 +207,25 @@ const Services = () => {
               />*/}
               <h3 className="services__modal-title">Manager</h3>
               <p className="services__modal-description">
-                Over 6 years experience responsible for planning, executing, and
-                closing projects within an organization. Including budgeting,
-                scheduling, resource allocation, team management, risk
-                management, and quality assurance.
+                Over 3 years experience Develop a clear product strategy that
+                aligns with the company's goals and vision. This includes
+                understanding the market, identifying target customers, and
+                defining the value proposition of your product.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Meeting the project objectives:
-                  </p>
+                  <p className="services__modal-info">•Professional Growth</p>
                 </li>
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
                   <p className="services__modal-info">
-                    •Managing project resources:
+                    •Agile and Efficient Product Development
                   </p>
                 </li>
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Building a strong project team
-                  </p>
+                  <p className="services__modal-info">•Customer Satisfaction</p>
                 </li>
               </ul>
             </div>

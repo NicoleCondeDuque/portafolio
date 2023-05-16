@@ -1,3 +1,12 @@
+a {
+  color: blueviolet;
+  font-style: normal;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
 .qualification__container {
   max-width: 768px;
 }
@@ -52,6 +61,11 @@
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+}
+
+.qualification__titleAd {
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
 }
 
 .qualification__subtitle {

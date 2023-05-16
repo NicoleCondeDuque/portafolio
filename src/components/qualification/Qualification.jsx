@@ -54,13 +54,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Design</h3>
-                <span className="qualification__subtitle">
-                  The Art Institute
-                </span>
+                <h3 className="qualification__title">
+                  <h3 className="qualification__title">
+                    Front End Developer - UI/UX Design
+                  </h3>
+                </h3>
+                <span className="qualification__subtitle">Laboratoria</span>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2016-2018
+                  2022-2023
                 </div>
               </div>
               <div>
@@ -75,23 +77,73 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  <h3 className="qualification__title">Front End Developer </h3>
+                </h3>
                 <span className="qualification__subtitle">
-                  Full Sail University
+                  Coderhouse - Argentina
                 </span>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2018-2021
+                  2022
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">UI/UX Design</h3>
-                <span className="qualification__subtitle">UX Academy</span>
+                <h3 className="qualification__title">
+                  <h3 className="qualification__title">
+                    Visual identity for food projects
+                  </h3>
+                </h3>
+                <span className="qualification__subtitle">Domestika</span>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2021-2022
+                  2022
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__titleAd">
+                  {" "}
+                  <h3 className="qualification__titleAd">
+                    {" "}
+                    Restaurant management
+                  </h3>
+                </h3>
+                <span className="qualification__subtitle">
+                  Le Cordon Bleu - Peru
+                </span>
+                <div className="qualification__calendar">
+                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  2022
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__titleAd">
+                  <h3 className="qualification__titleAd">
+                    Bachelor's degree in Business Administration
+                  </h3>
+                </h3>
+                <span className="qualification__subtitle">
+                  University Catholic Andrés Bello - Venezuela
+                </span>
+                <div className="qualification__calendar">
+                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  2011 - 2016
                 </div>
               </div>
               <div>
@@ -109,11 +161,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Tech Support</h3>
-                <span className="qualification__subtitle">PC Outlet</span>
+                <h3 className="qualification__title">Front Developer Junior</h3>
+                <span className="qualification__subtitle">Finca Grandez</span>
+                <a href="https://www.fincagrandez.com/">Web</a>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2012-2015
+                  2023
                 </div>
               </div>
               <div>
@@ -128,43 +181,63 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Junior Developer</h3>
-                <span className="qualification__subtitle">Discord</span>
+                <h3 className="qualification__title">Social media manager</h3>
+                <span className="qualification__subtitle">Finca Grandez</span>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2015-2016
+                  2021 - 2022
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple Inc</span>
-                <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2016-2022
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Senior Developer</h3>
+                <h3 className="qualification__title">Manager</h3>
                 <span className="qualification__subtitle">
-                  Freelance - Remote
-                </span>
+                  Mamma Tomato{" "}
+                </span>{" "}
+                <a href="https://www.mammatomato.com.pe/pedir">Web</a>
                 <div className="qualification__calendar">
                   {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
-                  2019-Present
+                  2020 - 2021
                 </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Manager</h3>
+                <span className="qualification__subtitle">Pastipan</span>
+                <a href="https://pastipan.com.pe/">Web</a>
+                <div className="qualification__calendar">
+                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  2018-2020
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Manager junior</h3>
+                <span className="qualification__subtitle">
+                  La baguette{" "}
+                </span>{" "}
+                <a href="https://www.labaguette.pe/">Web</a>
+                <div className="qualification__calendar">
+                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  2017 - 2018
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
