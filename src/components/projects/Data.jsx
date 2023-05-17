@@ -12,7 +12,7 @@ export const projectsData = [
     image: p1,
     title: "Burger Queen",
     category: "A",
-    demo: "https://dev-003-burger-queen-api-client-dusky.vercel.app/login",
+    demo: "https://dev-003-burger-queen-api-client-qya1.vercel.app/login",
   },
   {
     id: 2,
