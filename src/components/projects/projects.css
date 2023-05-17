@@ -9,7 +9,7 @@
 .buttonP {
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
+  color: white;
   padding: 0.25rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
@@ -44,6 +44,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  box-shadow: 0 0 0 1px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .project__img {
@@ -59,7 +60,7 @@
 }
 
 .project__button {
-  color: var(--text-color);
+  color: white;
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
 //import { HiOutlineMail, HiOutlineArrowSmRight } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
@@ -16,6 +16,12 @@ const Contact = () => {
       "JoL_9T73ree2Cs5ID"
     );
     e.target.reset();
+  };
+
+  const [toggleState, setToggleState] = useState(0);
+
+  const toggleTab = (index) => {
+    setToggleState(index);
   };
 
   return (
@@ -95,8 +101,12 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button href="#contact" className="button button--flex">
-              Send Message
+            <button
+              href="#contact"
+              className="button button--flex"
+              onClick={() => toggleTab(1)}
+            >
+              Send
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,6 +125,30 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
+
+            <div
+              className={
+                toggleState === 1
+                  ? "services__modal active-modal"
+                  : "services__modal"
+              }
+            >
+              <div className="services__modal-content">
+                <button
+                  onClick={() => toggleTab(0)}
+                  className="services__modal-close"
+                >
+                  x
+                </button>
+                <h3 className="services__modal-title">
+                  Message sent successfully!✨👾
+                </h3>
+                <p>
+                  I will send a response as soon as possible. Thank you for
+                  contacting me.
+                </p>
+              </div>
+            </div>
           </form>
         </div>
       </div>

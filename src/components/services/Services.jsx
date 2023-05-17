@@ -1,11 +1,5 @@
 import React, { useState } from "react";
 import "./services.css";
-//import {
-//  HiOutlineClipboardList,
-//  HiOutlineArrowSmRight,
-//  HiOutlineCheckCircle,
-//  HiX,
-//} from "react-icons/hi";
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -49,7 +43,7 @@ const Services = () => {
               </button>
               <h3 className="services__modal-title">Developer</h3>
               <p className="services__modal-description">
-                Over 1 years of experience in web development providing creative
+                Over 1 year of experience in web development providing creative
                 and quality work.
               </p>
               <ul className="services__modal-services grid">
@@ -105,7 +99,7 @@ const Services = () => {
               </button>
               <h3 className="services__modal-title">Designer</h3>
               <p className="services__modal-description">
-                Over 1 years of experience in UI/UX design providing quality
+                Over 1 year of experience in UI/UX design providing quality
                 work.
               </p>
               <ul className="services__modal-services grid">
@@ -161,8 +155,8 @@ const Services = () => {
               </button>
               <h3 className="services__modal-title">Manager</h3>
               <p className="services__modal-description">
-                Over 3 years experience Develop a clear product strategy that
-                aligns with the company's goals and vision. This includes
+                Over 7 years of experience developing a clear product strategy
+                that aligns with the company's goals and vision. This includes
                 understanding the market, identifying target customers, and
                 defining the value proposition of your product.
               </p>

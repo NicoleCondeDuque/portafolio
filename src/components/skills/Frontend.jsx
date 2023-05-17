@@ -31,10 +31,6 @@ const Frontend = () => {
               <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-            <div>
-              <h3 className="skills__name">Tailwind</h3>
-              <span className="skills__level">Basic</span>
-            </div>
           </div>
         </div>
         <div className="skills__group">
