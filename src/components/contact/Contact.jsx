@@ -34,10 +34,11 @@ const Contact = () => {
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">+51 981-167-097</span>
 
-              <a href="https://wa.link/y4zfxu" className="contact__button">
-                Write Me{" "}
-                {/*<HiOutlineArrowSmRight className="contact__button-icon" />*/}
-              </a>
+              <button class="buttonP">
+                <a href="https://wa.link/y4zfxu" className="contact__button">
+                  Write Me{" "}
+                </a>
+              </button>
             </div>
             <div className="contact__card">
               {/*<HiOutlineMail className="contact__card-icon" />*/}
@@ -47,13 +48,14 @@ const Contact = () => {
                 Nicolecondeduque@gmail.com
               </span>
 
-              <a
-                href="mailto:Nicolecondeduque@gmail.com"
-                className="contact__button"
-              >
-                Write Me{" "}
-                {/*<HiOutlineArrowSmRight className="contact__button-icon" />*/}
-              </a>
+              <button class="buttonP">
+                <a
+                  href="mailto:Nicolecondeduque@gmail.com"
+                  className="contact__button"
+                >
+                  Write Me{" "}
+                </a>
+              </button>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const ScrollUp = () => {
 
   return (
     <a href="about" className="scrollup">
-      <h2 className="scrollup__icon">ScrollUp!</h2>
+      <h2 className="scrollup__icon">⬆</h2>
       {/*<HiOutlineArrowSmUp className="scrollup__icon" />*/}
     </a>
   );

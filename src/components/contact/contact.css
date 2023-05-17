@@ -89,6 +89,19 @@
   z-index: 1;
 }
 
+.buttonP {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.buttonP:hover {
+  background-color: var(--title-color-dark);
+}
+
 .contact__form-tag {
   position: absolute;
   top: -0.75rem;

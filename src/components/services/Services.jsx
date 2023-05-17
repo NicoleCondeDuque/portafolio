@@ -24,7 +24,7 @@ const Services = () => {
           <div>
             {/*<HiOutlineClipboardList className="services__icon" />*/}
             <h3 className="services__title">
-              Web + App
+              Front end
               <br />
               Developer
             </h3>
@@ -41,10 +41,12 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              {/*<HiX
+              <button
                 onClick={() => toggleTab(0)}
                 className="services__modal-close"
-              />*/}
+              >
+                x
+              </button>
               <h3 className="services__modal-title">Developer</h3>
               <p className="services__modal-description">
                 Over 1 years of experience in web development providing creative
@@ -95,10 +97,12 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              {/*<HiX
+              <button
                 onClick={() => toggleTab(0)}
                 className="services__modal-close"
-              />*/}
+              >
+                x
+              </button>
               <h3 className="services__modal-title">Designer</h3>
               <p className="services__modal-description">
                 Over 1 years of experience in UI/UX design providing quality
@@ -132,58 +136,6 @@ const Services = () => {
           <div>
             {/*<HiOutlineClipboardList className="services__icon" />*/}
             <h3 className="services__title">
-              Social media
-              <br />
-              manager
-            </h3>
-          </div>
-          <span className="services__button" onClick={() => toggleTab(3)}>
-            View More
-            {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
-          </span>
-          <div
-            className={
-              toggleState === 3
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              {/*<HiX
-                onClick={() => toggleTab(0)}
-                className="services__modal-close"
-              />*/}
-              <h3 className="services__modal-title">Marketing</h3>
-              <p className="services__modal-description">
-                Over 4 years experience in Creation of digital campaigns on
-                platforms such as Instagram Ads and Facebook Ads • Management of
-                advertising budgets for social media advertising campaigns.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Monitor and analyze social media metrics
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Custom website and landing page
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">•Build brand loyalty</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="services__content">
-          <div>
-            {/*<HiOutlineClipboardList className="services__icon" />*/}
-            <h3 className="services__title">
               Product
               <br />
               manager
@@ -201,10 +153,12 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              {/*<HiX
+              <button
                 onClick={() => toggleTab(0)}
                 className="services__modal-close"
-              />*/}
+              >
+                x
+              </button>
               <h3 className="services__modal-title">Manager</h3>
               <p className="services__modal-description">
                 Over 3 years experience Develop a clear product strategy that
@@ -220,7 +174,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
                   <p className="services__modal-info">
-                    •Agile and Efficient Product Development
+                    •Srum and Agile Efficient Product Development
                   </p>
                 </li>
                 <li className="services__modal-service">

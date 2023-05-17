@@ -7,9 +7,7 @@ const Data = () => {
         Nicole Conde
         <span>👾</span>
       </h1>
-      <h3 className="home__subtitle">
-        Front End Developer + Product IT manager
-      </h3>
+      <h3 className="home__subtitle">Front End Developer + UX|UI</h3>
       <p className="home__description">
         Front-end developer dedicated to design and creative solutions.
       </p>
