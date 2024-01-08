@@ -1,15 +1,5 @@
 import React, { useState } from "react";
 import "./header.css";
-//import {
-//  HiOutlineHome,
-//  HiOutlineUser,
-//  HiOutlineBadgeCheck,
-//  HiOutlineClipboardList,
-//  HiOutlinePhotograph,
-//  HiOutlineMail,
-//  HiX,
-//  HiOutlineMenu,
-//} from "react-icons/hi";
 
 const Header = () => {
   window.addEventListener("scroll", function () {

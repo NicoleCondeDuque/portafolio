@@ -43,7 +43,7 @@ const Services = () => {
               </button>
               <h3 className="services__modal-title">Developer</h3>
               <p className="services__modal-description">
-                Over 1 year of experience in web development providing creative
+                Over 2 years of experience in web development providing creative
                 and quality work.
               </p>
               <ul className="services__modal-services grid">

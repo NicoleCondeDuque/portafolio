@@ -1,5 +1,5 @@
 import React from "react";
-//import { HiOutlineArrowSmRight } from "react-icons/hi";
+
 
 const ProjectItems = ({ item }) => {
   return (
@@ -7,11 +7,10 @@ const ProjectItems = ({ item }) => {
       <img className="project__img" src={item.image} alt="" />
       <h3 className="project__title">{item.title}</h3>
       <button class="buttonP">
-        <a href={item.demo} className="project__button">
-          {" "}
-          Check!
-          {/*Demo <HiOutlineArrowSmRight className="project__button-icon" />*/}
-        </a>
+      <a href={item.demo} className="project__button" target="_blank" rel="noopener noreferrer">
+  Check!
+</a>
+
       </button>
     </div>
   );

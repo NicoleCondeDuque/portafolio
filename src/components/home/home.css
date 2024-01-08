@@ -25,7 +25,8 @@
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-family:  'Kalnia', serif;
+  font-size: 3.5rem;
   margin-bottom: var(--mb-0-25);
 }
 

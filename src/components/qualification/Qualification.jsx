@@ -115,9 +115,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__titleAd">
+                <h3 className="qualification__title">
                   {" "}
-                  <h3 className="qualification__titleAd">
+                  <h3 className="qualification__title">
                     {" "}
                     Restaurant management
                   </h3>
@@ -133,8 +133,8 @@ const Qualification = () => {
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__titleAd">
-                  <h3 className="qualification__titleAd">
+                <h3 className="qualification__title">
+                  <h3 className="qualification__title">
                     Bachelor's degree in Business Administration
                   </h3>
                 </h3>

@@ -5,9 +5,8 @@ const Data = () => {
     <div className="home__data">
       <h1 className="home__title">
         Nicole Conde
-        <span>👾</span>
       </h1>
-      <h3 className="home__subtitle">Front End Developer + UX|UI</h3>
+      <h3 className="home__subtitle">Front End Developer + Product Manager</h3>
       <p className="home__description">
         Front-end developer dedicated to design and creative solutions.
       </p>
