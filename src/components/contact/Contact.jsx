@@ -38,7 +38,7 @@ const Contact = () => {
               {/*<HiOutlineMail className="contact__card-icon" />*/}
 
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">+1 973 6268</span>
+              <span className="contact__card-data">+1 403 973 6268</span>
 
               <button class="buttonP">
                 <a href="https://wa.link/y4zfxu" className="contact__button">
