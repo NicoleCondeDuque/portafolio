@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            As a Front End Developer with experience in Business Administration,
+            As a software engineer with experience in Business Administration,
             I have a strong interest in leveraging technology to guide the
             growth and strengthen the operations of companies through web
             development using tools such as JavaScript (VanillaJS, ReactJS,
