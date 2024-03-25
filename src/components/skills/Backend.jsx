@@ -7,14 +7,14 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            {/*<HiCheckBadge />*/}
+        
             <div>
               <h3 className="skills__name">Jest</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            {/*<HiCheckBadge />*/}
+          
             <div>
               <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Basic</span>
@@ -27,21 +27,21 @@ const Backend = () => {
         </div>
         <div className="skills__group">
           <div className="skills__data">
-            {/*<HiCheckBadge />*/}
+          
             <div>
               <h3 className="skills__name">NPM</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            {/*<HiCheckBadge />*/}
+          
             <div>
               <h3 className="skills__name">Node.js</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            {/*<HiCheckBadge />*/}
+      
             <div>
               <h3 className="skills__name">GitHub</h3>
               <span className="skills__level">Intermediate</span>

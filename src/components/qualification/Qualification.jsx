@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import "./qualification.css";
-//import {
-//  HiOutlineAcademicCap,
-//  HiOutlineBriefcase,
-//  HiOutlineCalendar,
-//} from "react-icons/hi";
+
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -28,7 +24,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            {/*<HiOutlineAcademicCap className="qualification__icon" />*/}
+         
             Education
           </div>
           <div
@@ -39,7 +35,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            {/*<HiOutlineBriefcase className="qualification__icon" />*/}
+
             Experience
           </div>
         </div>
@@ -61,7 +57,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">Laboratoria</span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2022-2023
                 </div>
               </div>
@@ -85,7 +81,7 @@ const Qualification = () => {
                   Coderhouse - Argentina
                 </span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2022
                 </div>
               </div>
@@ -99,7 +95,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">Domestika</span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2022
                 </div>
               </div>
@@ -126,7 +122,7 @@ const Qualification = () => {
                   Le Cordon Bleu - Peru
                 </span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2022
                 </div>
               </div>
@@ -142,7 +138,7 @@ const Qualification = () => {
                   University Catholic Andrés Bello - Venezuela
                 </span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  
                   2011 - 2016
                 </div>
               </div>
@@ -165,7 +161,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Finca Grandez</span>
                 <a href="https://www.fincagrandez.com/">Web</a>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2023
                 </div>
               </div>
@@ -184,7 +180,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Social media manager</h3>
                 <span className="qualification__subtitle">Finca Grandez</span>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  
                   2021 - 2022
                 </div>
               </div>
@@ -197,7 +193,7 @@ const Qualification = () => {
                 </span>{" "}
                 <a href="https://www.mammatomato.com.pe/pedir">Web</a>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                
                   2020 - 2021
                 </div>
               </div>
@@ -217,7 +213,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Pastipan</span>
                 <a href="https://pastipan.com.pe/">Web</a>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                  
                   2018-2020
                 </div>
               </div>
@@ -231,7 +227,7 @@ const Qualification = () => {
                 </span>{" "}
                 <a href="https://www.labaguette.pe/">Web</a>
                 <div className="qualification__calendar">
-                  {/*<HiOutlineCalendar className="qualification__calendar-icon" />*/}
+                 
                   2017 - 2018
                 </div>
               </div>

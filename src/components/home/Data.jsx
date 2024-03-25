@@ -6,11 +6,10 @@ const Data = () => {
       <h1 className="home__title">
         Nicole Conde
       </h1>
-      <h3 className="home__subtitle">Software developer + Product Manager</h3>
+      <h3 className="home__subtitle">Software developer + Product manager</h3>
       <p className="home__description">
        Software developer dedicated to design and creative solutions.
       </p>
-
       <a href="#contact" className="button button--flex">
         Say hello
         <svg

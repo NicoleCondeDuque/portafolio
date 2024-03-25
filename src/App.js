@@ -20,7 +20,7 @@ function App() {
         <Portfolio />
         <Skills />
         <Services />
-        <Qualification />
+        {/* <Qualification /> */}
         <Contact />
       </main>
       <Footer />
