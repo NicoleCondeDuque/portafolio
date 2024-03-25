@@ -14,15 +14,8 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            As a software engineer with experience in Business Administration,
-            I have a strong interest in leveraging technology to guide the
-            growth and strengthen the operations of companies through web
-            development using tools such as JavaScript (VanillaJS, ReactJS,
-            Angular), HTML, CSS (MaterialUI, Bootstrap, Tailwind), Firebase,
-            deployment (Vercel, Amazon Web Services, Google Cloud Platform), and
-            WordPress. My creative and innovative skills enable me to design and
-            develop products across various channels that turn ideas into
-            tangible results with a significant impact on user experience (UX).
+          Software developer with experience in Business Administration, I have a strong interest in leveraging technology to guide the growth and strengthen the operations of companies through web development. 
+My creative and innovative skills enable me to design and develop products across various channels that turn ideas into tangible results with a significant impact on user experience (UX).
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

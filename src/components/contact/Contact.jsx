@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import "./contact.css";
-//import { HiOutlineMail, HiOutlineArrowSmRight } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
