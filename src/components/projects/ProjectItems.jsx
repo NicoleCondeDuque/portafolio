@@ -8,7 +8,7 @@ const ProjectItems = ({ item }) => {
       <h3 className="project__title">{item.title}</h3>
       <button class="buttonP">
       <a href={item.demo} className="project__button" target="_blank" rel="noopener noreferrer">
-  Check!
+  Check
 </a>
 
       </button>
