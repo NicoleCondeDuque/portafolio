@@ -14,8 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-          Software developer with experience in Business Administration, I have a strong interest in leveraging technology to guide the growth and strengthen the operations of companies through web development. 
-My creative and innovative skills enable me to design and develop products across various channels that turn ideas into tangible results with a significant impact on user experience (UX).
+          Welcome to my website! As a software developer with experience in product management, I help you create digital solutions. My background includes developing products with a focus on analytical problem-solving, time management, and the ability to work in groups and independently. I am proficient in business analysis, technical specifications, and software implementation, continuously striving to build partnerships and improve business processes. Thank you for visiting my portal, a creative space that will show you a bit more about me. Feel free to contact me!✨
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
