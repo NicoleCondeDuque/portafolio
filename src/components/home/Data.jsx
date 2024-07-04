@@ -8,7 +8,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Software developer + Product manager</h3>
       <p className="home__description">
-      Believer in the power of infinite possibilities, and creator of digital solutions.
+Creator of digital solutions.
       </p>
       <a href="#contact" className="button button--flex">
         Say hello
