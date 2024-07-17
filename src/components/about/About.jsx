@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-          Welcome to my website! As a software developer with experience in product management, I help you create digital solutions. My background includes developing products with a focus on analytical problem-solving, time management, and the ability to work in groups and independently. I am proficient in business analysis, technical specifications, and software implementation, continuously striving to build partnerships and improve business processes. Thank you for visiting my portal, a creative space that will show you a bit more about me. Feel free to contact me!✨
+          Welcome to my website! As a software developer with experience in product management, I help create digital solutions. My background includes developing products with a focus on analytical problem-solving, time management, and the ability to work both in groups and independently. I am committed to continuing to learn. Thank you for visiting my portal, a creative space that will show you a bit more about me. Feel free to contact me! ✨
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
