@@ -18,7 +18,7 @@ const Services = () => {
           <div>
             {/*<HiOutlineClipboardList className="services__icon" />*/}
             <h3 className="services__title">
-              Front end
+              Software 
               <br />
               Developer
             </h3>
