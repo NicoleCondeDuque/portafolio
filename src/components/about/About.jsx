@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-          Welcome to my professional space! As a software developer with hands-on experience in product management, I specialize in turning complex challenges into streamlined digital solutions. My work is rooted in a deep understanding of analytical problem-solving, efficient time management, and the ability to drive results both independently and within a team. I am constantly evolving, committed to learning and adapting in this fast-paced industry. This space reflects my journey, my skills, and my dedication to excellence. I'm excited to share my work with you—let’s connect and explore how I can contribute to your next project. ✨
+          Welcome to my professional space! As a software developer with hands-on experience in product management, I specialize in turning complex challenges into streamlined digital solutions. My work is rooted in a deep understanding of analytical problem-solving, efficient time management, and the ability to drive results both independently and within a team. I am constantly evolving, committed to learning and adapting in this fast-paced industry. This space reflects my journey, my skills, and my dedication to excellence. I'm excited to share my work with you, let’s connect and explore how I can contribute to your next project. ✨
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
