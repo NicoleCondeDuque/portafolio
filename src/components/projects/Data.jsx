@@ -15,13 +15,6 @@ export const projectsData = [
     category: "A",
     demo: "https://nicolecondeduque.github.io/rodermarcano/",
   },
-   {
-    id: 2,
-    image: p1,
-    title: "Burger Queen",
-    category: "A",
-    demo: "https://dev-003-burger-queen-api-client-qya1.vercel.app/login",
-  },
   {
     id: 23,
     image: p2,
@@ -63,6 +56,13 @@ export const projectsData = [
     title: "Write me!",
     category: "C",
     demo: "https://nicolecondeduque.github.io/cifradoCesar/src/",
+  },
+  {
+    id: 2,
+    image: p1,
+    title: "Burger Queen",
+    category: "A",
+    demo: "https://dev-003-burger-queen-api-client-qya1.vercel.app/login",
   },
   
 ];

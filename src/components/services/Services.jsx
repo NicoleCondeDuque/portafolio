@@ -27,51 +27,60 @@ const Services = () => {
             View More
             {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
           </span>
-          <div
-            className={
-              toggleState === 1
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <button
-                onClick={() => toggleTab(0)}
-                className="services__modal-close"
-              >
-                x
-              </button>
-              <h3 className="services__modal-title">Developer</h3>
-              <p className="services__modal-description">
-                Over 2 years of experience in web development providing creative
-                and quality work.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Web page and app development
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Integrate creative colloboration
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Provide product Web and Apps
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="services__content">
+          <div className="services__content">
   <div>
+    {/*<HiOutlineClipboardList className="services__icon" />*/}
+    <h3 className="services__title">
+      Software  
+      <br />
+      Developer
+    </h3>
+  </div>
+  <span className="services__button" onClick={() => toggleTab(3)}>
+    View More
+    {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
+  </span>
+  <div
+    className={
+      toggleState === 3
+        ? "services__modal active-modal"
+        : "services__modal"
+    }
+  >
+    <div className="services__modal-content">
+      <button
+        onClick={() => toggleTab(0)}
+        className="services__modal-close"
+      >
+        x
+      </button>
+      <h3 className="services__modal-title">Software Developer</h3>
+      <p className="services__modal-description">
+        Passionate about designing, developing, and optimizing scalable web applications. Experienced in front-end and full-stack development, ensuring high-quality, efficient, and user-friendly solutions.
+      </p>
+      <ul className="services__modal-services grid">
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Develop and maintain responsive web applications.
+          </p>
+        </li>
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Optimize performance, scalability, and security of web solutions.
+          </p>
+        </li>
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Collaborate with designers and product managers to enhance user experience.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
     {/*<HiOutlineClipboardList className="services__icon" />*/}
     <h3 className="services__title">
       IT  
