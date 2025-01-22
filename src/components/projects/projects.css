@@ -57,6 +57,8 @@
   font-size: larger;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+  font-weight: bolder;
+
 }
 
 .project__button {
@@ -65,6 +67,7 @@
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
+  padding: 0.5rem 1rem;
 }
 
 .project__button-icon {

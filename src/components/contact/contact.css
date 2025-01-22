@@ -48,7 +48,7 @@
 }
 
 .contact__button {
-  color: var(--text-color);
+  color: #f0f0f0;
   font-size: var(--small-font-size);
   display: inline-flex;
   align-items: center;
