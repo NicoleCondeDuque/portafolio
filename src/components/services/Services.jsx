@@ -14,20 +14,7 @@ const Services = () => {
       <span className="section__subtitle">Create + Collaborate</span>
 
       <div className="services__container container grid">
-        <div className="services__content">
-          <div>
-            {/*<HiOutlineClipboardList className="services__icon" />*/}
-            <h3 className="services__title">
-              Software 
-              <br />
-              Developer
-            </h3>
-          </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            View More
-            {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
-          </span>
-          <div className="services__content">
+      <div className="services__content">
   <div>
     {/*<HiOutlineClipboardList className="services__icon" />*/}
     <h3 className="services__title">
@@ -81,6 +68,9 @@ const Services = () => {
     </div>
   </div>
 </div>
+
+        <div className="services__content">
+  <div>
     {/*<HiOutlineClipboardList className="services__icon" />*/}
     <h3 className="services__title">
       IT  
