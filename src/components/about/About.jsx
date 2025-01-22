@@ -83,8 +83,9 @@ const About = () => {
               ></path>
             </svg>
           </a> */}
-           <p>Your feedback is always welcome!
+           <p className="mt-4">Your feedback is always welcome!
 
+           <br /><br />
 Take a look around, and if you think we can create something amazing together, <b>let’s connect! 🚀✨</b>
         </p>
         </div>
