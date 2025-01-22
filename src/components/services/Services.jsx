@@ -71,68 +71,67 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
-            {/*<HiOutlineClipboardList className="services__icon" />*/}
-            <h3 className="services__title">
-              UI/UX
-              <br />
-              Designer
-            </h3>
-          </div>
-          <span className="services__button" onClick={() => toggleTab(2)}>
-            View More
-            {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
-          </span>
-          <div
-            className={
-              toggleState === 2
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <button
-                onClick={() => toggleTab(0)}
-                className="services__modal-close"
-              >
-                x
-              </button>
-              <h3 className="services__modal-title">Designer</h3>
-              <p className="services__modal-description">
-                Over 1 year of experience in UI/UX design providing quality
-                work.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Create a user friendly interface
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Develop with a minimal approach
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">
-                    •Design with accessibility in mind
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+  <div>
+    {/*<HiOutlineClipboardList className="services__icon" />*/}
+    <h3 className="services__title">
+      IT  
+      <br />
+      Analyst
+    </h3>
+  </div>
+  <span className="services__button" onClick={() => toggleTab(2)}>
+    View More
+    {/*<HiOutlineArrowSmRight className="services__button-icon" />*/}
+  </span>
+  <div
+    className={
+      toggleState === 2
+        ? "services__modal active-modal"
+        : "services__modal"
+    }
+  >
+    <div className="services__modal-content">
+      <button
+        onClick={() => toggleTab(0)}
+        className="services__modal-close"
+      >
+        x
+      </button>
+      <h3 className="services__modal-title">IT Analyst</h3>
+      <p className="services__modal-description">
+        Experienced in analyzing business and technical requirements, optimizing digital solutions, and ensuring efficient IT operations.
+      </p>
+      <ul className="services__modal-services grid">
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Assess and improve system performance and efficiency.
+          </p>
+        </li>
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Collaborate with teams to translate business needs into technical solutions.
+          </p>
+        </li>
+        <li className="services__modal-service">
+          {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
+          <p className="services__modal-info">
+            • Provide support and insights to enhance IT infrastructure and workflows.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
         <div className="services__content">
           <div>
             {/*<HiOutlineClipboardList className="services__icon" />*/}
             <h3 className="services__title">
-              Product
+            Digital Product 
               <br />
-              manager
+            Specialist
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -153,27 +152,24 @@ const Services = () => {
               >
                 x
               </button>
-              <h3 className="services__modal-title">Manager</h3>
+              <h3 className="services__modal-title">Digital Product Specialist</h3>
               <p className="services__modal-description">
-                Over 7 years of experience developing a clear product strategy
-                that aligns with the company's goals and vision. This includes
-                understanding the market, identifying target customers, and
-                defining the value proposition of your product.
+              With a strong background in digital solutions, I specialize in bridging the gap between business needs and technology. My expertise lies in optimizing product strategies, enhancing user experiences, and ensuring seamless product development from concept to launch.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">•Professional Growth</p>
+                  <p className="services__modal-info">• User-Centered Digital Solutions</p>
                 </li>
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
                   <p className="services__modal-info">
-                    •Srum and Agile Efficient Product Development
+                    • Agile & Data-Driven Product Development
                   </p>
                 </li>
                 <li className="services__modal-service">
                   {/*<HiOutlineCheckCircle className="services__modal-icon" />*/}
-                  <p className="services__modal-info">•Customer Satisfaction</p>
+                  <p className="services__modal-info">• Market Research & Customer Insights</p>
                 </li>
               </ul>
             </div>
