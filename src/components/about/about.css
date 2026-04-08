@@ -1,4 +1,4 @@
-.about__container {
+/* .about__container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
@@ -43,10 +43,10 @@
 .about__description {
   padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
-}
+} */
 
 /* BREAK POINTS */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .about__container {
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
@@ -66,8 +66,17 @@
 
   .about__info {
     justify-content: center;
-  }
+  } 
 
+
+  .about__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem;
+    justify-content: center; 
+    max-width: 400px; 
+    margin: 0 auto;
+}
   .about__description {
     padding: 0 5rem;
     margin-bottom: 2rem;
@@ -87,5 +96,194 @@
 @media screen and (max-width: 350px) {
   .about__info {
     grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+
+.about__container {
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.about__data {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.about__heading-reveal,
+.about__intro-block,
+.about__paragraph,
+.about__highlight,
+.about__cta {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.about--visible .about__heading-reveal,
+.about--visible .about__intro-block,
+.about--visible .about__paragraph,
+.about--visible .about__highlight,
+.about--visible .about__cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about__heading-reveal:nth-of-type(1) {
+  transition-delay: 0.05s;
+}
+
+.about__heading-reveal:nth-of-type(2) {
+  transition-delay: 0.1s;
+}
+
+.about__intro-block {
+  margin-bottom: 2rem;
+  transition-delay: 0.15s;
+}
+
+.about__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: var(--smaller-font-size);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.about__main-title {
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
+  line-height: 1.08;
+  margin-bottom: 1rem;
+  max-width: 12ch;
+}
+
+.about__lead {
+  max-width: 560px;
+  font-size: var(--normal-font-size);
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.about__info {
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about__box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(190, 190, 190, 0.25);
+  border-radius: 1rem;
+  padding: 1.1rem 1rem;
+  text-align: left;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.about__box--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about__box:hover {
+  transform: translateY(-4px);
+  border-color: rgba(190, 190, 190, 0.55);
+}
+
+.about__title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 0.35rem;
+}
+
+.about__subtitle {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color);
+}
+
+.about__story {
+  display: grid;
+  gap: 1rem;
+}
+
+.about__paragraph {
+  max-width: 720px;
+  line-height: 1.95;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  margin: 0;
+}
+
+.about__highlight {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 720px;
+}
+
+.about__highlight-line {
+  width: 42px;
+  height: 1px;
+  margin-top: 0.9rem;
+  background: var(--title-color);
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.about__highlight p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--title-color);
+}
+
+.about__cta {
+  margin-top: 2rem;
+  width: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+  .about__data {
+    text-align: left;
+  }
+
+  .about__main-title {
+    max-width: 100%;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about__info {
+    grid-template-columns: 1fr;
+  }
+
+  .about__highlight {
+    gap: 0.75rem;
+  }
+
+  .about__highlight-line {
+    width: 26px;
+  }
+
+  .about__paragraph,
+  .about__lead,
+  .about__highlight p {
+    line-height: 1.8;
   }
 }

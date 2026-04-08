@@ -1,6 +1,62 @@
+// import React, { useEffect, useState } from "react";
+// import { projectsData } from "./Data";
+// import { projectsNav } from "./Data";
+// import ProjectItems from "./ProjectItems";
+
+// const Projects = () => {
+//   const [item, setItem] = useState({ name: "All" });
+//   const [projects, setProjects] = useState([]);
+//   const [active, setActive] = useState(0);
+
+//   useEffect(() => {
+//     if (item.name === "All") {
+//       setProjects(projectsData);
+//     } else {
+//       const newProjects = projectsData.filter((project) => {
+//         return project.category === item.name;
+//       });
+//       setProjects(newProjects);
+//     }
+//   }, [item]);
+
+//   const handleClick = (e, index) => {
+//     setItem({ name: e.target.textContent });
+//     setActive(index);
+//   };
+
+//   return (
+//     <div>
+//       <div className="project__filters">
+//         {projectsNav.map((item, index) => {
+//           return (
+//             <span
+//               onClick={(e) => {
+//                 handleClick(e, index);
+//               }}
+//               className={`${
+//                 active === index ? "active-project" : ""
+//               } project__item`}
+//               key={index}
+//             >
+//               {item.name}
+//             </span>
+//           );
+//         })}
+//       </div>
+//       <div className="project__container container grid">
+//         {projects.map((item) => {
+//           return <ProjectItems item={item} key={item.id} />;
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Projects;
+
+
 import React, { useEffect, useState } from "react";
-import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
+import { projectsData, projectsNav } from "./Data";
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
@@ -12,41 +68,39 @@ const Projects = () => {
     if (item.name === "All") {
       setProjects(projectsData);
     } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category === item.name;
-      });
-      setProjects(newProjects);
+      const filteredProjects = projectsData.filter(
+        (project) => project.category === item.name
+      );
+      setProjects(filteredProjects);
     }
   }, [item]);
 
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent });
+  const handleClick = (projectNavItem, index) => {
+    setItem({ name: projectNavItem.name });
     setActive(index);
   };
 
   return (
     <div>
       <div className="project__filters">
-        {projectsNav.map((item, index) => {
-          return (
-            <span
-              onClick={(e) => {
-                handleClick(e, index);
-              }}
-              className={`${
-                active === index ? "active-project" : ""
-              } project__item`}
-              key={index}
-            >
-              {item.name}
-            </span>
-          );
-        })}
+        {projectsNav.map((navItem, index) => (
+          <button
+            key={navItem.name}
+            type="button"
+            onClick={() => handleClick(navItem, index)}
+            className={`project__item ${
+              active === index ? "active__project" : ""
+            }`}
+          >
+            {navItem.name}
+          </button>
+        ))}
       </div>
+
       <div className="project__container container grid">
-        {projects.map((item) => {
-          return <ProjectItems item={item} key={item.id} />;
-        })}
+        {projects.map((item) => (
+          <ProjectItems item={item} key={item.id} />
+        ))}
       </div>
     </div>
   );
